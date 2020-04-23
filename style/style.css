@@ -51,6 +51,18 @@ body {
   margin-top: -18px;
 }
 
+.extrah1 {
+  margin-left: 1.5rem;
+}
+
+.extrah2 {
+  margin-left: 1.5rem;
+}
+
+.extraul {
+  margin-left: 1.5rem;
+}
+
 #home h1 {
   position: relative;
   z-index: 1;
@@ -112,7 +124,7 @@ body {
 #navbarNav ul {
   text-align: center;
   margin: 0.4rem;
-  padding: 0.6rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 15px;
   background-color: #181818;
   -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2), 0px 0px 12px rgba(36, 36, 36, 0.4);
@@ -205,8 +217,8 @@ body {
 }
 
 #skills .icon .iconBx.active {
-  -webkit-box-shadow: 8px 8px 12px rgba(12, 10, 10, 0.9), -8px -8px 12px rgba(80, 80, 80, 0.2);
-          box-shadow: 8px 8px 12px rgba(12, 10, 10, 0.9), -8px -8px 12px rgba(80, 80, 80, 0.2);
+  -webkit-box-shadow: 6px 6px 8px rgba(12, 10, 10, 0.9), -6px -6px 8px rgba(80, 80, 80, 0.2);
+          box-shadow: 6px 6px 8px rgba(12, 10, 10, 0.9), -6px -6px 8px rgba(80, 80, 80, 0.2);
 }
 
 #skills .icon .iconBx img {
@@ -485,10 +497,9 @@ body {
   text-shadow: 0 0 8px #64fefe;
 }
 
-footer .beat {
+.beat {
   -webkit-animation: pulse 1s ease infinite;
           animation: pulse 1s ease infinite;
-  text-shadow: 0 0 8px #64fefe;
 }
 
 @-webkit-keyframes pulse {
@@ -504,6 +515,27 @@ footer .beat {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
   }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+footer .beat {
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite;
+  text-shadow: 0 0 8px #64fefe;
 }
 
 @keyframes pulse {
@@ -767,12 +799,52 @@ footer .beat {
 @media (max-width: 464px) {
   #skills .icon .iconBx {
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.65rem;
     width: 5.5rem;
     height: 2.5rem;
   }
-  #skill h3 {
-    font-size: 10px;
+  #skills h3 {
+    font-size: 1.5rem;
+  }
+  #skills p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 417px) {
+  #home h1 {
+    margin-left: -2.6rem;
+    font-size: 2.8rem;
+  }
+  .gif {
+    margin-top: -0.4rem;
+    height: 2.8rem;
+  }
+  #home h2 {
+    margin-top: -1.2rem;
+    margin-left: -2.6rem;
+    font-size: 2rem;
+  }
+  #home .extra {
+    height: 16rem;
+  }
+  #home .extrah1 {
+    height: 5.5rem;
+  }
+  #home .socialbtn {
+    margin-left: -2.6rem;
+  }
+  #skills .icon .iconBx {
+    margin: 0.9rem;
+    padding: 0.65rem;
+    width: 5.5rem;
+    height: 2.9rem;
+  }
+  #skills h3 {
+    font-size: 1.2rem;
+  }
+  #skills p {
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
