@@ -618,17 +618,35 @@ footer .beat{
     }
 }
 
+@media (min-width: 573px) and (max-width: 585px){
+    #home h1{
+        margin-left: 0rem;
+        font-size: 3.4rem;
+    }
+    .gif{
+        height: 3.4rem;
+    }
+    #home h2{
+        margin-top: -0.2rem;
+        margin-left: -1.5rem;
+        font-size: 2rem;
+    }
+    #home .socialbtn{
+        margin-left: -1.9rem;
+    }
+}
+
 @media (max-width: 575.98px){
     #home h1{
-        margin-left: -2rem;
+        margin-left: -1rem;
         font-size: 3.3rem;
     }
     .gif{
-        height: 3.5rem;
+        height: 3.3rem;
     }
     #home h2{
         margin-top: -0.8rem;
-        margin-left: -2rem;
+        margin-left: -2.5rem;
         font-size: 2rem;
     }
     #home .extra{
@@ -642,7 +660,7 @@ footer .beat{
         height: 6rem;
     }
     #home .socialbtn{
-        margin-left: -2rem;
+        margin-left: -3rem;
     }
     .vector{
         margin-top: 2rem;
@@ -695,10 +713,10 @@ footer .beat{
     }
 }
 
-@media (max-width: 481px){
+@media (min-width: 482px) and (max-width: 505px){
     #home h1{
-        margin-left: -2.6rem;
-        font-size: 2.9rem;
+        margin-left: -1rem;
+        font-size: 3rem;
     }
     .gif{
         height: 3rem;
@@ -715,7 +733,31 @@ footer .beat{
         height: 5.5rem;
     }
     #home .socialbtn{
-        margin-left: -2.6rem;
+        margin-left: -3rem;
+    }
+}
+
+@media (max-width: 481px){
+    #home h1{
+        margin-left: -2rem;
+        font-size: 2.9rem;
+    }
+    .gif{
+        height: 3rem;
+    }
+    #home h2{
+        margin-top: -1rem;
+        margin-left: -3.4rem;
+        font-size: 2rem;
+    }
+    #home .extra{
+        height: 16rem;
+    }
+    #home .extrah1{
+        height: 5.5rem;
+    }
+    #home .socialbtn{
+        margin-left: -4rem;
     }
 }
 
@@ -731,6 +773,31 @@ footer .beat{
     }
     #skills p{
         font-size: 1rem;
+    }
+}
+
+@media (min-width: 417px) and (max-width: 424px){
+    #home h1{
+        margin-left: -2.6rem;
+        font-size: 2.8rem;
+    }
+    .gif{
+        margin-top: -0.4rem;
+        height: 2.8rem;
+    }
+    #home h2{
+        margin-top: -1.2rem;
+        margin-left: -4rem;
+        font-size: 2rem;
+    }
+    #home .extra{
+        height: 16rem;
+    }
+    #home .extrah1{
+        height: 5.5rem;
+    }
+    #home .socialbtn{
+        margin-left: -4.5rem;
     }
 }
 
@@ -771,3 +838,17 @@ footer .beat{
     }
 }
 
+@media (max-width: 417px){
+    #home h1{
+        margin-left: -2.6rem;
+        font-size: 2.5rem;
+    }
+    #home h2{
+        margin-top: -1.2rem;
+        margin-left: -4rem;
+        font-size: 2rem;
+    }
+    #home .socialbtn{
+        margin-left: -4.2rem;
+    }
+}
