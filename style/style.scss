@@ -674,6 +674,30 @@ footer .beat{
     }
 }
 
+@media (max-width: 481px){
+    #home h1{
+        margin-left: -2.6rem;
+        font-size: 2.9rem;
+    }
+    .gif{
+        height: 3rem;
+    }
+    #home h2{
+        margin-top: -1rem;
+        margin-left: -2.6rem;
+        font-size: 2rem;
+    }
+    #home .extra{
+        height: 16rem;
+    }
+    #home .extrah1{
+        height: 5.5rem;
+    }
+    #home .socialbtn{
+        margin-left: -2.6rem;
+    }
+}
+
 @media (max-width: 464px){
     #skills .icon .iconBx{
         margin: 1rem;
