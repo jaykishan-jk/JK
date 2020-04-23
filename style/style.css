@@ -623,13 +623,26 @@ footer .beat {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   #home h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
+  }
+  #home .extra {
+    height: 16rem;
+  }
+  #home .extrah1 {
+    height: 5rem;
+  }
+  #home .extrah2 {
+    padding-top: 3.5rem;
+    height: 6rem;
+  }
+  #home .socialbtn {
+    height: 1rem;
   }
   .gif {
     height: 2rem;
   }
   #home h2 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
   .vector {
     margin-left: 10rem;
@@ -654,41 +667,88 @@ footer .beat {
 
 @media (max-width: 575.98px) {
   #home h1 {
-    font-size: 1.5rem;
+    margin-left: -2rem;
+    font-size: 3.3rem;
   }
   .gif {
-    height: 1.5rem;
+    height: 3.5rem;
   }
   #home h2 {
-    font-size: 0.5rem;
+    margin-top: -0.8rem;
+    margin-left: -2rem;
+    font-size: 2rem;
+  }
+  #home .extra {
+    height: 16rem;
+  }
+  #home .extrah1 {
+    height: 5.5rem;
+  }
+  #home .extrah2 {
+    padding-top: 3.5rem;
+    height: 6rem;
+  }
+  #home .socialbtn {
+    margin-left: -2rem;
   }
   .vector {
-    margin-left: 1rem;
-    width: 90%;
+    margin-top: 2rem;
+    margin-left: -1rem;
+    width: 16rem;
   }
   .wire {
-    width: 15rem;
-    margin-left: -5rem;
-    visibility: hidden;
+    width: 7rem;
+    margin-left: 4rem;
   }
   .circles {
     margin-top: 5rem;
-    margin-left: 3rem;
-    height: 2rem;
-    visibility: hidden;
+    margin-left: 0rem;
+    height: 6rem;
   }
   .horaero {
     position: relative;
-    margin-left: 2rem;
+    margin-top: 9rem;
+    margin-left: 1rem;
   }
-  .veraero {
+  #home p {
     visibility: hidden;
+  }
+  #about h3 {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #about h4 {
+    text-align: center;
+    margin-top: 1rem;
   }
   #skills .icon .iconBx {
     margin: 1rem;
     padding: 1rem;
     width: 5.5rem;
     height: 4rem;
+  }
+  #contact ul li a {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 1.8rem;
+    margin: 0 5px;
+  }
+  #contact ul li a .fa {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 464px) {
+  #skills .icon .iconBx {
+    margin: 1rem;
+    padding: 1rem;
+    width: 5.5rem;
+    height: 2.5rem;
+  }
+  #skill h3 {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
