@@ -16,7 +16,7 @@ body {
 #navbarNav ul {
   text-align: center;
   margin: 0.4rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 15px;
   background-color: #181818;
   -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
