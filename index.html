@@ -32,7 +32,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col-1 offset-5">
-                    <img src="assets/hor_aero.svg" width="100" height="65" alt="logo">
+                    <img src="assets/hor_aero.svg" class="thumbnailright" width="100" height="65" alt="logo">
                 </div>
             </div>
             <div class="row no-gutters justify-content-center" style="height: 400px;">
@@ -40,7 +40,7 @@
                     <h1 class="extrah1">Hello <img src="assets/hi.gif" class="gif" alt="gif"><br>I'm Jaykishan</h1>
                     <div class="row no-gutters">
                         <div class="col col-md-11 extrah2">
-                            <h2>Graphics Designer</h2>
+                            <h2><span class="animate"></span></h2> <!-- typed animation -->
                         </div>
                     </div>
                     <div class="row mt-3 no-gutters">
@@ -58,12 +58,12 @@
                     <img src="assets/vectorjk.png" class="vector" alt="vectorjk">
                     <div class="row no-gutters justify-content-end">
                         <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <img src="assets/wire.svg" height="100px" class="wire" alt="wire">
+                            <img src="assets/wire.svg" height="100px" class="wire thumbnailleft" alt="wire">
                         </div>
                     </div>
                     <div class="row no-gutters justify-content-end">
                         <div class="col-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 mr-auto">
-                            <img src="assets/circles.svg" class="circles" alt="circles">
+                            <img src="assets/circles.svg" class="circles thumbnailright" alt="circles">
                         </div>
                     </div>    
                 </div>
@@ -71,13 +71,13 @@
 
             <div class="row no-gutters">
                 <div class="col-sm-1">
-                    <img src="assets/hor_aero.svg" width="100" height="65" class="horaero" alt="bottomaero">
+                    <img src="assets/hor_aero.svg" width="100" height="65" class="horaero thumbnailright" alt="bottomaero">
                 </div>
                 <div class="col-2 offset-4 text-center">
                     <p class="mt-5 pt-4" style="opacity: 0.2;">Scroll Down</p>
                 </div>
                 <div class="col-1 offset-4">
-                    <img src="assets/ver_aero.svg" class="veraero" alt="bottomaero">
+                    <img src="assets/ver_aero.svg" class="veraero thumbnailver" alt="bottomaero">
                 </div>
             </div>
         </div>
@@ -133,15 +133,15 @@
                     <div class="col col-lg-7 col-md-12 col-sm-12 col-12 mt-xl-0 mt-lg-0 mt-md-5 mt-sm-5 mt-4">
                         <h3>Heyaa! I'm Jaykishan Rajpara.</h3>
                         <h4>You can call me JK!</h4>
-                        <h4>Basically, I'm A Design Enthusiast, Graphics & UI/UX Designer, Web 
-                            Developer And Also An Art Enthusiast. 
+                        <h4>Basically, I'm A Design Enthusiast, Graphics & UI/UX Designer,Front-end Web 
+                            Developer, and Also An Art Enthusiast. 
                             Currently I'm Pursuing My Bachelor's 
                             In Computer Engineering At Sardar 
                             Vallabhbhai Patel Institute Of 
                             Technology (SVIT).<br> I Love Experimenting 
                             Various Things So I Am Always Happy To 
                             Dirty My Hands On A Complex Task. I'm 
-                            Also A Photographer, Video Editor And 
+                            Also A Photographer, Video Editor, and 
                             Sketch Artist By Passion.
                         </h4>
                     </div>
@@ -502,9 +502,32 @@
     
     
     
+    <!-- Parallax -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+    <script type="text/javascript">
+        var image = document.getElementsByClassName('thumbnailright');
+        new simpleParallax(image, { overflow: true, scale: 3, orientation: 'right' });
+        var image = document.getElementsByClassName('thumbnailleft');
+        new simpleParallax(image, { overflow: true, scale: 3, orientation: 'left' });
+        var image = document.getElementsByClassName('thumbnailver');
+        new simpleParallax(image, { overflow: true, scale: 2, orientation: 'down' });
+    </script>
 
 
-
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('.animate', {
+          strings: [
+              "Graphics Designer",
+              "UI/UX Designer",
+              "Photographer"
+          ],
+          typeSpeed: 50,
+          backSpeed: 10,
+          loop: true
+        });
+    </script>
 
     <!-- skill animation -->
     <script type="text/javascript">
