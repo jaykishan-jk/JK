@@ -4,6 +4,10 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #181818;
   color: #888889;
@@ -129,19 +133,27 @@ body {
 #navbarNav ul {
   text-align: center;
   margin: 0.4rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 15px;
   background-color: #181818;
-  -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2), 0px 0px 12px rgba(36, 36, 36, 0.4);
-          box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2), 0px 0px 12px rgba(36, 36, 36, 0.4);
+  -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
 }
 
 #navbarNav ul li:hover {
   text-align: center;
+  color: #64fefe;
   border-radius: 10px;
   background-color: #181818;
-  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2), inset 0px 0px 12px rgba(36, 36, 36, 0.4);
-          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2), inset 0px 0px 12px rgba(36, 36, 36, 0.4);
+  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+}
+
+nav ul li a.current {
+  border-radius: 10px;
+  background-color: #181818;
+  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
 }
 
 #about h2 {
@@ -162,6 +174,11 @@ body {
   font-family: 'Source Code Pro', monospace;
   text-align: justify;
   line-height: 2.1rem;
+}
+
+#about h4 a {
+  color: #64fefe;
+  font-size: 1rem;
 }
 
 #about .box {
@@ -348,6 +365,10 @@ body {
           transform: scale(0.9);
 }
 
+#blogs h6 {
+  line-height: 1.5rem;
+}
+
 #blogs .card {
   text-align: center;
   border-radius: 15px;
@@ -385,7 +406,8 @@ body {
 #blogs .card .card-img-top {
   text-align: center;
   width: 80%;
-  margin: 2rem;
+  margin: 1.5rem;
+  padding: 0.5rem;
   border-radius: 15px;
   background-color: #181818;
   -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.7), -4px -4px 6px rgba(80, 80, 80, 0.2);
@@ -399,7 +421,7 @@ body {
 #blogs .card .btn {
   text-align: center;
   color: #888889;
-  border-radius: 15px;
+  border-radius: 10px;
   background-color: #181818;
   -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.7), -4px -4px 6px rgba(80, 80, 80, 0.2);
           box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.7), -4px -4px 6px rgba(80, 80, 80, 0.2);
