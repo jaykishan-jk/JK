@@ -13,6 +13,32 @@ body {
   color: #888889;
 }
 
+#navbarNav ul {
+  text-align: center;
+  margin: 0.4rem;
+  padding: 0.5rem 0.5rem;
+  border-radius: 15px;
+  background-color: #181818;
+  -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
+}
+
+#navbarNav ul li:hover {
+  text-align: center;
+  color: #64fefe;
+  border-radius: 10px;
+  background-color: #181818;
+  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+}
+
+nav ul li a.current {
+  border-radius: 10px;
+  background-color: #181818;
+  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
+}
+
 .typed-cursor {
   visibility: hidden;
 }
@@ -128,32 +154,6 @@ body {
 #home ul li a:hover .fa {
   color: #64fefe;
   text-shadow: 0 0 15px #64fefe;
-}
-
-#navbarNav ul {
-  text-align: center;
-  margin: 0.4rem;
-  padding: 0.5rem 0.5rem;
-  border-radius: 15px;
-  background-color: #181818;
-  -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
-          box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.8), -4px -4px 6px rgba(80, 80, 80, 0.2);
-}
-
-#navbarNav ul li:hover {
-  text-align: center;
-  color: #64fefe;
-  border-radius: 10px;
-  background-color: #181818;
-  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
-          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
-}
-
-nav ul li a.current {
-  border-radius: 10px;
-  background-color: #181818;
-  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
-          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
 }
 
 #about h2 {
@@ -964,7 +964,7 @@ footer .beat {
   }
   .wire {
     width: 7rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
   .circles {
     margin-top: 5rem;
