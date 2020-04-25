@@ -32,13 +32,6 @@ body {
           box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
 }
 
-nav ul li a.current {
-  border-radius: 10px;
-  background-color: #181818;
-  -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
-          box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2);
-}
-
 .typed-cursor {
   visibility: hidden;
 }
@@ -232,7 +225,7 @@ nav ul li a.current {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 4px;
+  border-radius: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-box-shadow: inset 4px 4px 6px rgba(12, 10, 10, 0.7), inset -4px -4px 6px rgba(80, 80, 80, 0.2), inset 0px 0px 12px rgba(36, 36, 36, 0.4);
@@ -321,6 +314,10 @@ nav ul li a.current {
           transform: scale(1);
 }
 
+#proj .card .card-body {
+  margin-top: -1rem;
+}
+
 #proj .card .card-img-top {
   text-align: center;
   width: 80%;
@@ -337,6 +334,7 @@ nav ul li a.current {
 
 #proj .card .btn {
   text-align: center;
+  margin-bottom: 0.6rem;
   color: #888889;
   border-radius: 15px;
   background-color: #181818;
@@ -403,6 +401,10 @@ nav ul li a.current {
   color: #64fefe;
 }
 
+#blogs .card .card-body {
+  margin-top: -0.5rem;
+}
+
 #blogs .card .card-img-top {
   text-align: center;
   width: 80%;
@@ -422,6 +424,8 @@ nav ul li a.current {
   text-align: center;
   color: #888889;
   border-radius: 10px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
   background-color: #181818;
   -webkit-box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.7), -4px -4px 6px rgba(80, 80, 80, 0.2);
           box-shadow: 4px 4px 6px rgba(12, 10, 10, 0.7), -4px -4px 6px rgba(80, 80, 80, 0.2);
