@@ -653,7 +653,7 @@ footer .beat {
   /* For Neumorphism Effect */
 }
 
-@media (min-width: 992px) and (max-width: 1284px) {
+/* @media (min-width: 992px) and (max-width: 1284px) {
   #home h1 {
     font-size: 4rem;
   }
@@ -683,11 +683,75 @@ footer .beat {
     width: 8rem;
     height: 8rem;
   }
+} */
+
+@media (min-width: 1200px) and (max-width: 5000px) {
+  #home h1 {
+    font-size: 4rem;
+  }
+  #home h2 {
+    font-size: 2.9rem;
+  }
+  .gif {
+    height: 4rem;
+  }
+  .horaero {
+    position: relative;
+    margin-left: 2rem;
+  }
+  .veraero {
+    position: relative;
+    width: 12px;
+    margin-top: -5.6rem;
+    margin-bottom: -3rem;
+  }
+  .wire {
+    width: 15rem;
+    margin-left: -2rem;
+  }
+  .circles {
+    position: absolute;
+    width: 60%;
+    margin-top: 10rem;
+    margin-left: -5.5em;
+    z-index: -1;
+    height: 100px;
+  }
+  
 }
 
-@media (min-width: 992px) and (max-width: 1036px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   #home h1 {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
+  }
+  .gif {
+    height: 3.3rem;
+  }
+  #home h2 {
+    font-size: 2.3rem;
+  }
+  .wire {
+    width: 12.5rem;
+    margin-left: -2rem;
+  }
+  .circles {
+    position: absolute;
+    width: 60%;
+    margin-top: 7rem;
+    margin-left: -4.5em;
+    z-index: -1;
+    height: 100px;
+  }
+  .horaero {
+    position: relative;
+    margin-left: 1rem;
+    width: 100%;
+  }
+  .veraero {
+    position: relative;
+    width: 10px;
+    margin-top: -5.6rem;
+    margin-bottom: -3rem;
   }
 }
 
