@@ -653,7 +653,7 @@ footer .beat {
   /* For Neumorphism Effect */
 }
 
-@media (min-width: 992px) and (max-width: 1284px) {
+@media (min-width: 992px) {
   #home h1 {
     font-size: 4rem;
   }
